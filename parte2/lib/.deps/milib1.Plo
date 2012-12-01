@@ -1,0 +1,5 @@
+milib1.lo: milib1.c milib.h ../config.h
+
+milib.h:
+
+../config.h:
