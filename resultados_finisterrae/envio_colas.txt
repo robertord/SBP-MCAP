@@ -1,0 +1,18 @@
+Despues de compilarlo en un nodo del FT:
+$qsub -l num_proc=1,s_rt=0:10:00,s_vmem=1G,h_fsize=20M job.sh
+
+curso831@cn002:~/sbp/main_production-1.0/test/bin> cat job.sh.o4506041 
+/bin/bash -l /opt/cesga/sge6.2u5p2/default/spool/cn006/job_scripts/4506041
+a=999.000000
+b=860.000000
+a+b=1859.000000
+a-b=139.000000
+a*b=859140.000000
+a/b=1.161628
+sqrt(c)=1.077788
+log(c)=0.149822
+sin(c)=0.917452
+cos(c)=0.397847
+tan(c)=2.306045
+-------------------------------------------------------------------------
+
